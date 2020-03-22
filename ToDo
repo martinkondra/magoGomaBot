@@ -1,0 +1,13 @@
+DONE -Convertir a minúsucla
+DONE -Sacar tildes de la current_syl
+DONE -Verificar contra el diccionario que el input sea una palabra
+DONE -Crear nuevos .p con el nuevo silabeador
+DONE -después de perder sigue el bucle
+DONE -used words funciona como el orto
+DONE -las respuestas no pueden ser de una silaba
+DONE -arreglar replace accents fc!
+
+-reeemplazar rr en current_syl
+-la lista de used debe ser propia de cada usuario, transformarla en un dicc?
+-filtrar mensajes de texto y comandos, que los comandos respondan, agregar comando con /instrucciones
+
