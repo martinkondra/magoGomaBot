@@ -19,7 +19,7 @@ def unknown(bot, update):
     bot.send_message(chat_id=update.message.chat_id, text="WTF?!.")
 
 
-updater = Updater(token='557208315:AAF5qigXkVoZrBFfhdo-NOlTWwRBjfdDNe0')
+updater = Updater(token='')
 dispatcher = updater.dispatcher
 
 start_handler = CommandHandler('start', start)
@@ -38,7 +38,7 @@ def main():
     """Run the bot."""
     global update_id
     global match, current_syl
-    bot = telegram.Bot(token='557208315:AAF5qigXkVoZrBFfhdo-NOlTWwRBjfdDNe0')
+    bot = telegram.Bot(token='')
     #logger.info("Bot started as @{}".format(updater.bot.username))
 
     # get the first pending update_id, this is so we can skip over it in case
